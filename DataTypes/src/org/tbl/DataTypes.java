@@ -1,5 +1,7 @@
 package org.tbl;
 
+import java.util.List;
+
 public class DataTypes {
     public static void main(String[] args) {
         boolean isValid = false; // This is stored as a single bit
@@ -33,5 +35,27 @@ public class DataTypes {
         System.out.println("Double max = " + Double.MAX_VALUE);
         System.out.println("Double min = " + Double.MIN_VALUE);
 
+        //Derived Data Type
+        char[] myName = {'b','i','n','a','r','y'};
+
+        String myStringName = "binary";
+
+        Integer[] myBasicNumbers = {0,1,2,3,4,5,6,7,8,9};
+
+        System.out.println(myName);
+
+        System.out.println(myStringName);
+
+        System.out.println(myBasicNumbers);
+    }
+
+    class Cube{
+        float length;
+        float breadth;
+        float height;
+        double surfaceArea;
+        double volume;
+        double mass;
+        String surfaceColor;
     }
 }
