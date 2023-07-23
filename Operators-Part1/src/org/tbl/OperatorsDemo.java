@@ -32,7 +32,7 @@ public class OperatorsDemo {
 
         //Postfix operator
         int val5 = 15;
-        //val5 = val5 - 1
+        //val5 = val5 + 1
         val5++;
         System.out.println(val5);
         //val5 = val5 - 1
