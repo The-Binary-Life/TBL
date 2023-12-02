@@ -2,10 +2,14 @@ public class ShiftOperators {
     public static void main(String[] args) {
         //signed left shift
         int operand = 1;
+        // 00000000 00000000 00000000 00000001 = 1
+        // 00000000 00000000 00000000 00001000 = 8
         System.out.println(operand << 3);
 
         //signed right shift of +ve number
         operand = 128;
+        // 00000000 00000000 00000000 10000000 = 128
+        // 00000000 00000000 00000000 00100000 = 32
         System.out.println(operand >> 2);
 
         //Signed right shift of -ve number
