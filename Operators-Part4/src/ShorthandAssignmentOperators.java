@@ -14,15 +14,15 @@ public class ShorthandAssignmentOperators {
         System.out.println("10 - 5 = " + operandA);
         operandA = 10;
         System.out.println("10 x 5 = " + operandA * operandB);
-        operandA = operandA * operandB;
+        operandA *= operandB;
         System.out.println("10 x 5 = " + operandA);
         operandA = 10;
         System.out.println("10 / 5 = " + operandA / operandB);
-        operandA = operandA / operandB;
+        operandA /= operandB;
         System.out.println("10 / 5 = " + operandA);
         operandA = 10;
         System.out.println("10 % 5 = " + operandA % operandB);
-        operandA = operandA % operandB;
+        operandA %= operandB;
         System.out.println("10 % 5 = " + operandA);
     }
 }
