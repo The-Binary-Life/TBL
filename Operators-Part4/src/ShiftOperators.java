@@ -1,7 +1,4 @@
 public class ShiftOperators {
-    public ShiftOperators() {
-    }
-
     public static void main(String[] args) {
         //signed left shift
         int operand = 1;

@@ -1,7 +1,4 @@
 public class ShorthandAssignmentOperators {
-    public ShorthandAssignmentOperators() {
-    }
-
     public static void main(String[] args) {
         int operandA = 10;
         int operandB = 5;
