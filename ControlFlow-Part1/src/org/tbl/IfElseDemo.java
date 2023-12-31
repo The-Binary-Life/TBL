@@ -42,5 +42,44 @@ public class IfElseDemo {
         }else {
             System.out.println("company not found");
         }
+
+        int studentClass = 7;
+        char studentGrade = 'C';
+
+        if(studentClass == 5 && studentGrade == 'A'){
+            System.out.println("Grade 5: Very good result");
+        }else if(studentClass == 5 && studentGrade == 'B'){
+            System.out.println("Grade 5: Good result");
+        }else if(studentClass == 5 && (studentGrade != 'A' && studentGrade != 'B')){
+            System.out.println("Grade 5: Needs improvement");
+        }else if(studentClass == 6 && studentGrade == 'A'){
+            System.out.println("Grade 6: Very good result");
+        }else if(studentClass == 6 && studentGrade == 'B'){
+            System.out.println("Grade 6: Good result");
+        }else if(studentClass == 6 && (studentGrade != 'A' && studentGrade != 'B')){
+            System.out.println("Grade 6: Needs improvement");
+        }else if(studentClass != 5 && studentClass != 6){
+            System.out.println("Student doesn't belong to class 5 or 6");
+        }
+
+        if(studentClass == 5){
+            if(studentGrade == 'A'){
+                System.out.println("Grade 5: Very good result");
+            }else if(studentGrade == 'B'){
+                System.out.println("Grade 5: Good result");
+            }else {
+                System.out.println("Grade 5: Needs improvement");
+            }
+        }else if(studentClass == 6){
+            if(studentGrade == 'A'){
+                System.out.println("Grade 6: Very good result");
+            }else if(studentGrade == 'B'){
+                System.out.println("Grade 6: Good result");
+            }else {
+                System.out.println("Grade 6: Needs improvement");
+            }
+        } else {
+            System.out.println("Student doesn't belong to class 5 or 6");
+        }
     }
 }

@@ -46,6 +46,32 @@ public class SwitchDemo {
             default:
                 System.out.println("We should not jump the signal");
         }
+
+        int studentClass = 7;
+        char studentGrade = 'C';
+
+        if(studentClass == 5){
+            if(studentGrade == 'A'){
+                System.out.println("Grade 5: Very good result");
+            }else if(studentGrade == 'B'){
+                System.out.println("Grade 5: Good result");
+            }else {
+                System.out.println("Grade 5: Needs improvement");
+            }
+        }else if(studentClass == 6){
+            switch (studentGrade){
+                case 'A':
+                    System.out.println("Grade 6: Very good result");
+                    break;
+                case 'B':
+                    System.out.println("Grade 6: Good result");
+                    break;
+                default:
+                    System.out.println("Grade 6: Needs improvment");
+            }
+        }else {
+            System.out.println("Student doesn't belong to class 5 or 6!");
+        }
     }
 
     private enum TrafficLight {
