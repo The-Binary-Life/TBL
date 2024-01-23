@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ControlFlow-Part1/ControlFlow-Part1.iml" filepath="$PROJECT_DIR$/ControlFlow-Part1/ControlFlow-Part1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ControlFlow-Part2/ControlFlow-Part2.iml" filepath="$PROJECT_DIR$/ControlFlow-Part2/ControlFlow-Part2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ControlFlow-Part3/ControlFlow-Part3.iml" filepath="$PROJECT_DIR$/ControlFlow-Part3/ControlFlow-Part3.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataTypes/DataTypes.iml" filepath="$PROJECT_DIR$/DataTypes/DataTypes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Operators-Part1/Operators-Part1.iml" filepath="$PROJECT_DIR$/Operators-Part1/Operators-Part1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Operators-Part2/Operators-Part2.iml" filepath="$PROJECT_DIR$/Operators-Part2/Operators-Part2.iml" />
